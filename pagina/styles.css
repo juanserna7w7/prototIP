@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23121c29' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2327313f' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%233e4856' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23555f6f' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%236E7888' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.registration-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #5499C7;
+    box-shadow: 0 0 5px rgba(84, 153, 199, 0.5);
+}
+/* ... Tus estilos existentes ... */
+
+.header {
+    text-align: center;
+    background-color: #445375;
+    border-bottom: 2px solid #333; /* Borde en la parte inferior */
+    padding: 10px 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7d92c0;
+}   
